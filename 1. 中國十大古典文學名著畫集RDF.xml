@@ -1,0 +1,621 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bflc="http://id.loc.gov/ontologies/bflc/" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">
+  <bf:Work rdf:about="http://www.lib.ntnu.edu.tw/bibframe/resources/works/010">
+    <bf:adminMetadata>
+      <bf:AdminMetadata>
+        <bf:generationProcess>
+          <bf:GenerationProcess>
+            <rdfs:label>DLC marc2bibframe2 v1.6.0-SNAPSHOT</rdfs:label>
+            <bf:generationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-05T01:26:47+08:00</bf:generationDate>
+          </bf:GenerationProcess>
+        </bf:generationProcess>
+        <bf:status>
+          <bf:Status>
+            <rdfs:label>new</rdfs:label>
+            <bf:code>n</bf:code>
+          </bf:Status>
+        </bf:status>
+        <bflc:encodingLevel>
+          <bflc:EncodingLevel rdf:about="http://id.loc.gov/vocabulary/menclvl/f">
+            <rdfs:label>full</rdfs:label>
+          </bflc:EncodingLevel>
+        </bflc:encodingLevel>
+        <bf:descriptionConventions>
+          <bf:DescriptionConventions rdf:about="http://id.loc.gov/vocabulary/descriptionConventions/isbd">
+            <rdfs:label>isbd</rdfs:label>
+          </bf:DescriptionConventions>
+        </bf:descriptionConventions>
+        <bf:identifiedBy>
+          <bf:Local>
+            <rdf:value>10907440</rdf:value>
+            <bf:assigner>
+              <bf:Agent rdf:about="http://id.loc.gov/vocabulary/organizations/dlc"/>
+            </bf:assigner>
+          </bf:Local>
+        </bf:identifiedBy>
+        <bf:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-02-06</bf:creationDate>
+        <bf:source>
+          <bf:Source>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Agent"/>
+            <rdfs:label>NTNU</rdfs:label>
+          </bf:Source>
+        </bf:source>
+        <bf:source>
+          <bf:Source>
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Agent"/>
+            <rdfs:label>NTNU</rdfs:label>
+          </bf:Source>
+        </bf:source>
+        <bf:descriptionConventions>
+          <bf:DescriptionConventions rdf:about="http://id.loc.gov/vocabulary/descriptionConventions/CCR">
+            <rdfs:label>CCR</rdfs:label>
+          </bf:DescriptionConventions>
+        </bf:descriptionConventions>
+      </bf:AdminMetadata>
+    </bf:adminMetadata>
+    <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Text"/>
+    <bf:language>
+      <bf:Language rdf:about="http://id.loc.gov/vocabulary/languages/chi"/>
+    </bf:language>
+    <bf:illustrativeContent>
+      <bf:Illustration rdf:about="http://id.loc.gov/vocabulary/millus/ill">
+        <rdfs:label>illustrations</rdfs:label>
+      </bf:Illustration>
+    </bf:illustrativeContent>
+    <bf:language>
+      <bf:Language>
+        <rdf:value rdf:resource="http://id.loc.gov/vocabulary/languages/chi"/>
+      </bf:Language>
+    </bf:language>
+    <bf:language>
+      <bf:Language>
+        <rdf:value rdf:resource="http://id.loc.gov/vocabulary/languages/eng"/>
+      </bf:Language>
+    </bf:language>
+    <rdfs:label>中國十大古典文學名著畫集 =</rdfs:label>
+    <bf:title>
+      <bf:Title>
+        <rdfs:label>中國十大古典文學名著畫集 =</rdfs:label>
+        <bflc:titleSortKey>中國十大古典文學名著畫集 =</bflc:titleSortKey>
+        <bf:mainTitle>中國十大古典文學名著畫集</bf:mainTitle>
+      </bf:Title>
+    </bf:title>
+    <bf:tableOfContents>
+      <bf:TableOfContents>
+        <rdfs:label>1, 紅樓夢/曹雪芹原著--2, 離騷/屈原原著--3, 水滸傳/施耐痷原著--4, 西廂記/王實甫原著--5, 儒林外史/吳敬梓原著--6, 牡丹亭/湯顯祖原著--7, 西遊記/吳承恩原著--8, 三國演義/羅貫中原著--9, 金瓶梅/蘭陵笑笑生原著--10, 聊齋誌異/蒲松齡原著</rdfs:label>
+      </bf:TableOfContents>
+    </bf:tableOfContents>
+    <bf:hasPart>
+      <bf:Work rdf:about="http://www.lib.ntnu.edu.tw/bibframe/resources/hubs/001">
+        <bf:contribution>
+          <bf:Contribution>
+            <bf:agent>
+              <bf:Agent rdf:about="http://id.loc.gov/authorities/names/n79054025">
+                <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+                <bflc:name00MatchKey>曹雪芹, (清)</bflc:name00MatchKey>
+                <bflc:name00MarcKey>70012$a曹雪芹,$d(清)$e原著$t紅樓夢</bflc:name00MarcKey>
+                <rdfs:label>曹雪芹, (清)</rdfs:label>
+              </bf:Agent>
+            </bf:agent>
+            <bf:role>
+              <bf:Role>
+                <rdfs:label>原著</rdfs:label>
+              </bf:Role>
+            </bf:role>
+          </bf:Contribution>
+        </bf:contribution>
+        <rdfs:label>紅樓夢</rdfs:label>
+        <bf:title>
+          <bf:Title>
+            <bflc:title00MatchKey>紅樓夢</bflc:title00MatchKey>
+            <bflc:title00MarcKey>70012$a曹雪芹,$d(清)$e原著$t紅樓夢</bflc:title00MarcKey>
+            <rdfs:label>紅樓夢</rdfs:label>
+            <bflc:titleSortKey>紅樓夢</bflc:titleSortKey>
+            <bf:mainTitle>紅樓夢</bf:mainTitle>
+          </bf:Title>
+        </bf:title>
+      </bf:Work>
+    </bf:hasPart>
+    <bf:hasPart>
+      <bf:Work rdf:about="http://www.lib.ntnu.edu.tw/bibframe/resources/hubs/002">
+        <bf:contribution>
+          <bf:Contribution>
+            <bf:agent>
+              <bf:Agent rdf:about="http://id.loc.gov/authorities/names/n80117265">
+                <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+                <bflc:name00MatchKey>屈原</bflc:name00MatchKey>
+                <bflc:name00MarcKey>70012$a屈原$e原著$t離騷</bflc:name00MarcKey>
+                <rdfs:label>屈原</rdfs:label>
+              </bf:Agent>
+            </bf:agent>
+            <bf:role>
+              <bf:Role>
+                <rdfs:label>原著</rdfs:label>
+              </bf:Role>
+            </bf:role>
+          </bf:Contribution>
+        </bf:contribution>
+        <rdfs:label>離騷</rdfs:label>
+        <bf:title>
+          <bf:Title>
+            <bflc:title00MatchKey>離騷</bflc:title00MatchKey>
+            <bflc:title00MarcKey>70012$a屈原$e原著$t離騷</bflc:title00MarcKey>
+            <rdfs:label>離騷</rdfs:label>
+            <bflc:titleSortKey>離騷</bflc:titleSortKey>
+            <bf:mainTitle>離騷</bf:mainTitle>
+          </bf:Title>
+        </bf:title>
+      </bf:Work>
+    </bf:hasPart>
+    <bf:hasPart>
+      <bf:Work rdf:about="http://www.lib.ntnu.edu.tw/bibframe/resources/hubs/003">
+        <bf:contribution>
+          <bf:Contribution>
+            <bf:agent>
+              <bf:Agent rdf:about="http://id.loc.gov/authorities/names/n80131225">
+                <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+                <bflc:name00MatchKey>施耐庵 (元)</bflc:name00MatchKey>
+                <bflc:name00MarcKey>70012$a施耐庵$d(元)$e原著$t水滸傳</bflc:name00MarcKey>
+                <rdfs:label>施耐庵 (元)</rdfs:label>
+              </bf:Agent>
+            </bf:agent>
+            <bf:role>
+              <bf:Role>
+                <rdfs:label>原著</rdfs:label>
+              </bf:Role>
+            </bf:role>
+          </bf:Contribution>
+        </bf:contribution>
+        <rdfs:label>水滸傳</rdfs:label>
+        <bf:title>
+          <bf:Title>
+            <bflc:title00MatchKey>水滸傳</bflc:title00MatchKey>
+            <bflc:title00MarcKey>70012$a施耐庵$d(元)$e原著$t水滸傳</bflc:title00MarcKey>
+            <rdfs:label>水滸傳</rdfs:label>
+            <bflc:titleSortKey>水滸傳</bflc:titleSortKey>
+            <bf:mainTitle>水滸傳</bf:mainTitle>
+          </bf:Title>
+        </bf:title>
+      </bf:Work>
+    </bf:hasPart>
+    <bf:hasPart>
+      <bf:Work rdf:about="http://www.lib.ntnu.edu.tw/bibframe/resources/hubs/004">
+        <bf:contribution>
+          <bf:Contribution>
+            <bf:agent>
+              <bf:Agent rdf:about="http://id.loc.gov/authorities/names/n81003794">
+                <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+                <bflc:name00MatchKey>王實甫, (元)</bflc:name00MatchKey>
+                <bflc:name00MarcKey>70012$a王實甫,$d(元)$e原著$t西廂記</bflc:name00MarcKey>
+                <rdfs:label>王實甫, (元)</rdfs:label>
+              </bf:Agent>
+            </bf:agent>
+            <bf:role>
+              <bf:Role>
+                <rdfs:label>原著</rdfs:label>
+              </bf:Role>
+            </bf:role>
+          </bf:Contribution>
+        </bf:contribution>
+        <rdfs:label>西廂記</rdfs:label>
+        <bf:title>
+          <bf:Title>
+            <bflc:title00MatchKey>西廂記</bflc:title00MatchKey>
+            <bflc:title00MarcKey>70012$a王實甫,$d(元)$e原著$t西廂記</bflc:title00MarcKey>
+            <rdfs:label>西廂記</rdfs:label>
+            <bflc:titleSortKey>西廂記</bflc:titleSortKey>
+            <bf:mainTitle>西廂記</bf:mainTitle>
+          </bf:Title>
+        </bf:title>
+      </bf:Work>
+    </bf:hasPart>
+    <bf:hasPart>
+      <bf:Work rdf:about="http://www.lib.ntnu.edu.tw/bibframe/resources/hubs/005">
+        <bf:contribution>
+          <bf:Contribution>
+            <bf:agent>
+              <bf:Agent rdf:about="http://id.loc.gov/authorities/names/n81141301">
+                <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+                <bflc:name00MatchKey>吳敬梓, (清)</bflc:name00MatchKey>
+                <bflc:name00MarcKey>70012$a吳敬梓,$d(清)$e原著$t儒林外史</bflc:name00MarcKey>
+                <rdfs:label>吳敬梓, (清)</rdfs:label>
+              </bf:Agent>
+            </bf:agent>
+            <bf:role>
+              <bf:Role>
+                <rdfs:label>原著</rdfs:label>
+              </bf:Role>
+            </bf:role>
+          </bf:Contribution>
+        </bf:contribution>
+        <rdfs:label>儒林外史</rdfs:label>
+        <bf:title>
+          <bf:Title>
+            <bflc:title00MatchKey>儒林外史</bflc:title00MatchKey>
+            <bflc:title00MarcKey>70012$a吳敬梓,$d(清)$e原著$t儒林外史</bflc:title00MarcKey>
+            <rdfs:label>儒林外史</rdfs:label>
+            <bflc:titleSortKey>儒林外史</bflc:titleSortKey>
+            <bf:mainTitle>儒林外史</bf:mainTitle>
+          </bf:Title>
+        </bf:title>
+      </bf:Work>
+    </bf:hasPart>
+    <bf:hasPart>
+      <bf:Work rdf:about="http://www.lib.ntnu.edu.tw/bibframe/resources/hubs/006">
+        <bf:contribution>
+          <bf:Contribution>
+            <bf:agent>
+              <bf:Agent rdf:about="http://id.loc.gov/authorities/names/n80028211">
+                <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+                <bflc:name00MatchKey>湯顯祖, (明)</bflc:name00MatchKey>
+                <bflc:name00MarcKey>70012$a湯顯祖,$d(明)$e原著$t牡丹亭</bflc:name00MarcKey>
+                <rdfs:label>湯顯祖, (明)</rdfs:label>
+              </bf:Agent>
+            </bf:agent>
+            <bf:role>
+              <bf:Role>
+                <rdfs:label>原著</rdfs:label>
+              </bf:Role>
+            </bf:role>
+          </bf:Contribution>
+        </bf:contribution>
+        <rdfs:label>牡丹亭</rdfs:label>
+        <bf:title>
+          <bf:Title>
+            <bflc:title00MatchKey>牡丹亭</bflc:title00MatchKey>
+            <bflc:title00MarcKey>70012$a湯顯祖,$d(明)$e原著$t牡丹亭</bflc:title00MarcKey>
+            <rdfs:label>牡丹亭</rdfs:label>
+            <bflc:titleSortKey>牡丹亭</bflc:titleSortKey>
+            <bf:mainTitle>牡丹亭</bf:mainTitle>
+          </bf:Title>
+        </bf:title>
+      </bf:Work>
+    </bf:hasPart>
+    <bf:hasPart>
+      <bf:Work rdf:about="http://www.lib.ntnu.edu.tw/bibframe/resources/hubs/007">
+        <bf:contribution>
+          <bf:Contribution>
+            <bf:agent>
+              <bf:Agent rdf:about="http://id.loc.gov/authorities/names/n79058677">
+                <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+                <bflc:name00MatchKey>吳承恩 (明)</bflc:name00MatchKey>
+                <bflc:name00MarcKey>70012$a吳承恩$d(明)$e原著$t西遊記</bflc:name00MarcKey>
+                <rdfs:label>吳承恩 (明)</rdfs:label>
+              </bf:Agent>
+            </bf:agent>
+            <bf:role>
+              <bf:Role>
+                <rdfs:label>原著</rdfs:label>
+              </bf:Role>
+            </bf:role>
+          </bf:Contribution>
+        </bf:contribution>
+        <rdfs:label>西遊記</rdfs:label>
+        <bf:title>
+          <bf:Title>
+            <bflc:title00MatchKey>西遊記</bflc:title00MatchKey>
+            <bflc:title00MarcKey>70012$a吳承恩$d(明)$e原著$t西遊記</bflc:title00MarcKey>
+            <rdfs:label>西遊記</rdfs:label>
+            <bflc:titleSortKey>西遊記</bflc:titleSortKey>
+            <bf:mainTitle>西遊記</bf:mainTitle>
+          </bf:Title>
+        </bf:title>
+      </bf:Work>
+    </bf:hasPart>
+    <bf:hasPart>
+      <bf:Work rdf:about="http://www.lib.ntnu.edu.tw/bibframe/resources/hubs/008">
+        <bf:contribution>
+          <bf:Contribution>
+            <bf:agent>
+              <bf:Agent rdf:about="http://id.loc.gov/authorities/names/n80131226">
+                <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+                <bflc:name00MatchKey>羅貫中, (元)</bflc:name00MatchKey>
+                <bflc:name00MarcKey>70012$a羅貫中,$d(元)$e原著$t三國演義</bflc:name00MarcKey>
+                <rdfs:label>羅貫中, (元)</rdfs:label>
+              </bf:Agent>
+            </bf:agent>
+            <bf:role>
+              <bf:Role>
+                <rdfs:label>原著</rdfs:label>
+              </bf:Role>
+            </bf:role>
+          </bf:Contribution>
+        </bf:contribution>
+        <rdfs:label>三國演義</rdfs:label>
+        <bf:title>
+          <bf:Title>
+            <bflc:title00MatchKey>三國演義</bflc:title00MatchKey>
+            <bflc:title00MarcKey>70012$a羅貫中,$d(元)$e原著$t三國演義</bflc:title00MarcKey>
+            <rdfs:label>三國演義</rdfs:label>
+            <bflc:titleSortKey>三國演義</bflc:titleSortKey>
+            <bf:mainTitle>三國演義</bf:mainTitle>
+          </bf:Title>
+        </bf:title>
+      </bf:Work>
+    </bf:hasPart>
+    <bf:hasPart>
+      <bf:Work rdf:about="http://www.lib.ntnu.edu.tw/bibframe/resources/hubs/009">
+        <bf:contribution>
+          <bf:Contribution>
+            <bf:agent>
+              <bf:Agent rdf:about="http://viaf.org/viaf/43084014">
+                <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+                <bflc:name00MatchKey>蘭陵笑笑生</bflc:name00MatchKey>
+                <bflc:name00MarcKey>70002$a蘭陵笑笑生$e原著$t金瓶梅</bflc:name00MarcKey>
+                <rdfs:label>蘭陵笑笑生</rdfs:label>
+              </bf:Agent>
+            </bf:agent>
+            <bf:role>
+              <bf:Role>
+                <rdfs:label>原著</rdfs:label>
+              </bf:Role>
+            </bf:role>
+          </bf:Contribution>
+        </bf:contribution>
+        <rdfs:label>金瓶梅</rdfs:label>
+        <bf:title>
+          <bf:Title>
+            <bflc:title00MatchKey>金瓶梅</bflc:title00MatchKey>
+            <bflc:title00MarcKey>70002$a蘭陵笑笑生$e原著$t金瓶梅</bflc:title00MarcKey>
+            <rdfs:label>金瓶梅</rdfs:label>
+            <bflc:titleSortKey>金瓶梅</bflc:titleSortKey>
+            <bf:mainTitle>金瓶梅</bf:mainTitle>
+          </bf:Title>
+        </bf:title>
+      </bf:Work>
+    </bf:hasPart>
+    <bf:hasPart>
+      <bf:Work rdf:about="http://www.lib.ntnu.edu.tw/bibframe/resources/hubs/010">
+        <bf:contribution>
+          <bf:Contribution>
+            <bf:agent>
+              <bf:Agent rdf:about="http://id.loc.gov/authorities/names/n81002741">
+                <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+                <bflc:name00MatchKey>蒲松齡, (清)</bflc:name00MatchKey>
+                <bflc:name00MarcKey>70012$a蒲松齡,$d(清)$e原著$t聊齋誌異</bflc:name00MarcKey>
+                <rdfs:label>蒲松齡, (清)</rdfs:label>
+              </bf:Agent>
+            </bf:agent>
+            <bf:role>
+              <bf:Role>
+                <rdfs:label>原著</rdfs:label>
+              </bf:Role>
+            </bf:role>
+          </bf:Contribution>
+        </bf:contribution>
+        <rdfs:label>聊齋誌異</rdfs:label>
+        <bf:title>
+          <bf:Title>
+            <bflc:title00MatchKey>聊齋誌異</bflc:title00MatchKey>
+            <bflc:title00MarcKey>70012$a蒲松齡,$d(清)$e原著$t聊齋誌異</bflc:title00MarcKey>
+            <rdfs:label>聊齋誌異</rdfs:label>
+            <bflc:titleSortKey>聊齋誌異</bflc:titleSortKey>
+            <bf:mainTitle>聊齋誌異</bf:mainTitle>
+          </bf:Title>
+        </bf:title>
+      </bf:Work>
+    </bf:hasPart>
+    <bf:contribution>
+      <bf:Contribution>
+        <bf:agent>
+          <bf:Agent rdf:about="http://example.org/10907440#Agent710-24">
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Organization"/>
+            <bflc:name10MatchKey>漢光文化事業股份公司</bflc:name10MatchKey>
+            <bflc:name10MarcKey>71020$a漢光文化事業股份公司$e編輯</bflc:name10MarcKey>
+            <rdfs:label>漢光文化事業股份公司</rdfs:label>
+          </bf:Agent>
+        </bf:agent>
+        <bf:role>
+          <bf:Role>
+            <rdfs:label>編輯</rdfs:label>
+          </bf:Role>
+        </bf:role>
+      </bf:Contribution>
+    </bf:contribution>
+    <bf:relatedTo>
+      <bf:Work rdf:about="http://example.org/10907440#Work740-25">
+        <rdfs:label>A pictorial series of the ten greatest Chinese literature classics.</rdfs:label>
+        <bf:title>
+          <bf:Title>
+            <rdfs:label>A pictorial series of the ten greatest Chinese literature classics.</rdfs:label>
+            <bflc:titleSortKey>pictorial series of the ten greatest Chinese literature classics.</bflc:titleSortKey>
+            <bf:mainTitle>A pictorial series of the ten greatest Chinese literature classics</bf:mainTitle>
+          </bf:Title>
+        </bf:title>
+      </bf:Work>
+    </bf:relatedTo>
+    <bf:hasPart>
+      <bf:Work rdf:about="http://www.lib.ntnu.edu.tw/bibframe/resources/hubs/001">
+        <rdfs:label>紅樓夢</rdfs:label>
+        <bf:title>
+          <bf:Title>
+            <rdfs:label>紅樓夢</rdfs:label>
+            <bflc:titleSortKey>紅樓夢</bflc:titleSortKey>
+            <bf:mainTitle>紅樓夢</bf:mainTitle>
+          </bf:Title>
+        </bf:title>
+      </bf:Work>
+    </bf:hasPart>
+    <bf:hasPart>
+      <bf:Work rdf:about="http://www.lib.ntnu.edu.tw/bibframe/resources/hubs/002">
+        <rdfs:label>離騷</rdfs:label>
+        <bf:title>
+          <bf:Title>
+            <rdfs:label>離騷</rdfs:label>
+            <bflc:titleSortKey>離騷</bflc:titleSortKey>
+            <bf:mainTitle>離騷</bf:mainTitle>
+          </bf:Title>
+        </bf:title>
+      </bf:Work>
+    </bf:hasPart>
+    <bf:hasPart>
+      <bf:Work rdf:about="http://www.lib.ntnu.edu.tw/bibframe/resources/hubs/003">
+        <rdfs:label>水滸傳</rdfs:label>
+        <bf:title>
+          <bf:Title>
+            <rdfs:label>水滸傳</rdfs:label>
+            <bflc:titleSortKey>水滸傳</bflc:titleSortKey>
+            <bf:mainTitle>水滸傳</bf:mainTitle>
+          </bf:Title>
+        </bf:title>
+      </bf:Work>
+    </bf:hasPart>
+    <bf:hasPart>
+      <bf:Work rdf:about="http://www.lib.ntnu.edu.tw/bibframe/resources/hubs/004">
+        <rdfs:label>西廂記</rdfs:label>
+        <bf:title>
+          <bf:Title>
+            <rdfs:label>西廂記</rdfs:label>
+            <bflc:titleSortKey>西廂記</bflc:titleSortKey>
+            <bf:mainTitle>西廂記</bf:mainTitle>
+          </bf:Title>
+        </bf:title>
+      </bf:Work>
+    </bf:hasPart>
+    <bf:hasPart>
+      <bf:Work rdf:about="http://www.lib.ntnu.edu.tw/bibframe/resources/hubs/005">
+        <rdfs:label>儒林外史</rdfs:label>
+        <bf:title>
+          <bf:Title>
+            <rdfs:label>儒林外史</rdfs:label>
+            <bflc:titleSortKey>儒林外史</bflc:titleSortKey>
+            <bf:mainTitle>儒林外史</bf:mainTitle>
+          </bf:Title>
+        </bf:title>
+      </bf:Work>
+    </bf:hasPart>
+    <bf:hasPart>
+      <bf:Work rdf:about="http://www.lib.ntnu.edu.tw/bibframe/resources/hubs/006">
+        <rdfs:label>牡丹亭</rdfs:label>
+        <bf:title>
+          <bf:Title>
+            <rdfs:label>牡丹亭</rdfs:label>
+            <bflc:titleSortKey>牡丹亭</bflc:titleSortKey>
+            <bf:mainTitle>牡丹亭</bf:mainTitle>
+          </bf:Title>
+        </bf:title>
+      </bf:Work>
+    </bf:hasPart>
+    <bf:hasPart>
+      <bf:Work rdf:about="http://www.lib.ntnu.edu.tw/bibframe/resources/hubs/007">
+        <rdfs:label>西遊記</rdfs:label>
+        <bf:title>
+          <bf:Title>
+            <rdfs:label>西遊記</rdfs:label>
+            <bflc:titleSortKey>西遊記</bflc:titleSortKey>
+            <bf:mainTitle>西遊記</bf:mainTitle>
+          </bf:Title>
+        </bf:title>
+      </bf:Work>
+    </bf:hasPart>
+    <bf:hasPart>
+      <bf:Work rdf:about="http://www.lib.ntnu.edu.tw/bibframe/resources/hubs/008">
+        <rdfs:label>三國演義</rdfs:label>
+        <bf:title>
+          <bf:Title>
+            <rdfs:label>三國演義</rdfs:label>
+            <bflc:titleSortKey>三國演義</bflc:titleSortKey>
+            <bf:mainTitle>三國演義</bf:mainTitle>
+          </bf:Title>
+        </bf:title>
+      </bf:Work>
+    </bf:hasPart>
+    <bf:hasPart>
+      <bf:Work rdf:about="http://www.lib.ntnu.edu.tw/bibframe/resources/hubs/009">
+        <rdfs:label>金瓶梅</rdfs:label>
+        <bf:title>
+          <bf:Title>
+            <rdfs:label>金瓶梅</rdfs:label>
+            <bflc:titleSortKey>金瓶梅</bflc:titleSortKey>
+            <bf:mainTitle>金瓶梅</bf:mainTitle>
+          </bf:Title>
+        </bf:title>
+      </bf:Work>
+    </bf:hasPart>
+    <bf:hasPart>
+      <bf:Work rdf:about="http://www.lib.ntnu.edu.tw/bibframe/resources/hubs/010">
+        <rdfs:label>聊齋誌異</rdfs:label>
+        <bf:title>
+          <bf:Title>
+            <rdfs:label>聊齋誌異</rdfs:label>
+            <bflc:titleSortKey>聊齋誌異</bflc:titleSortKey>
+            <bf:mainTitle>聊齋誌異</bf:mainTitle>
+          </bf:Title>
+        </bf:title>
+      </bf:Work>
+    </bf:hasPart>
+    <bf:hasInstance rdf:resource="http://www.lib.ntnu.edu.tw/bibframe/resources/instances/010"/>
+  </bf:Work>
+  <bf:Instance rdf:about="http://www.lib.ntnu.edu.tw/bibframe/resources/instances/010">
+    <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Print"/>
+    <bf:issuance>
+      <bf:Issuance rdf:about="http://id.loc.gov/vocabulary/issuance/mono"/>
+    </bf:issuance>
+    <bf:provisionActivity>
+      <bf:ProvisionActivity>
+        <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Publication"/>
+        <bf:date rdf:datatype="http://id.loc.gov/datatypes/edtf">1990</bf:date>
+        <bf:place>
+          <bf:Place rdf:about="http://id.loc.gov/vocabulary/countries/ch"/>
+        </bf:place>
+      </bf:ProvisionActivity>
+    </bf:provisionActivity>
+    <bf:acquisitionTerms>新台幣 10000 元</bf:acquisitionTerms>
+    <bf:identifiedBy>
+      <bf:Isbn>
+        <rdf:value>9576290384</rdf:value>
+        <bf:qualifier>一套 : 精裝</bf:qualifier>
+      </bf:Isbn>
+    </bf:identifiedBy>
+    <bf:identifiedBy>
+      <bf:Local>
+        <rdf:value>.b10907440</rdf:value>
+      </bf:Local>
+    </bf:identifiedBy>
+    <rdfs:label>中國十大古典文學名著畫集 =</rdfs:label>
+    <bf:title>
+      <bf:Title>
+        <rdfs:label>中國十大古典文學名著畫集 =</rdfs:label>
+        <bflc:titleSortKey>中國十大古典文學名著畫集 =</bflc:titleSortKey>
+        <bf:mainTitle>中國十大古典文學名著畫集</bf:mainTitle>
+        <bf:subtitle>A pictorial series of the ten greatest Chinese literature classics</bf:subtitle>
+      </bf:Title>
+    </bf:title>
+    <bf:responsibilityStatement>漢光文化事業股份有限公司編輯</bf:responsibilityStatement>
+    <bf:editionStatement>初版</bf:editionStatement>
+    <bf:provisionActivity>
+      <bf:ProvisionActivity>
+        <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Publication"/>
+        <bf:place>
+          <bf:Place>
+            <rdfs:label>臺北市</rdfs:label>
+          </bf:Place>
+        </bf:place>
+        <bf:agent>
+          <bf:Agent>
+            <rdfs:label>漢光文化</rdfs:label>
+          </bf:Agent>
+        </bf:agent>
+        <bf:agent>
+          <bf:Agent>
+            <rdfs:label>中國展望出版社</rdfs:label>
+          </bf:Agent>
+        </bf:agent>
+        <bf:date>1990[民79</bf:date>
+      </bf:ProvisionActivity>
+    </bf:provisionActivity>
+    <bf:provisionActivityStatement>臺北市 : 漢光文化 ; 中國展望出版社, 1990[民79]</bf:provisionActivityStatement>
+    <bf:extent>
+      <bf:Extent>
+        <rdfs:label>10 冊</rdfs:label>
+      </bf:Extent>
+    </bf:extent>
+    <bf:note>
+      <bf:Note>
+        <bf:noteType>Physical details</bf:noteType>
+        <rdfs:label>彩圖</rdfs:label>
+      </bf:Note>
+    </bf:note>
+    <bf:dimensions>30 公分</bf:dimensions>
+    <bf:instanceOf rdf:resource="http://www.lib.ntnu.edu.tw/bibframe/resources/works/010"/>
+  </bf:Instance>
+</rdf:RDF>

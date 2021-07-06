@@ -1,0 +1,292 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:bf="http://id.loc.gov/ontologies/bibframe/" xmlns:bflc="http://id.loc.gov/ontologies/bflc/" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">
+  <bf:Work rdf:about="http://www.lib.ntnu.edu.tw/bibframe/resources/works/005">
+    <bf:adminMetadata>
+      <bf:AdminMetadata>
+        <bf:generationProcess>
+          <bf:GenerationProcess>
+            <rdfs:label>DLC marc2bibframe2 v1.6.0-SNAPSHOT</rdfs:label>
+            <bf:generationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-04T22:21:02+08:00</bf:generationDate>
+          </bf:GenerationProcess>
+        </bf:generationProcess>
+        <bf:status>
+          <bf:Status>
+            <rdfs:label>new</rdfs:label>
+            <bf:code>n</bf:code>
+          </bf:Status>
+        </bf:status>
+        <bflc:encodingLevel>
+          <bflc:EncodingLevel rdf:about="http://id.loc.gov/vocabulary/menclvl/f">
+            <rdfs:label>full</rdfs:label>
+          </bflc:EncodingLevel>
+        </bflc:encodingLevel>
+        <bf:descriptionConventions>
+          <bf:DescriptionConventions rdf:about="http://id.loc.gov/vocabulary/descriptionConventions/isbd">
+            <rdfs:label>isbd</rdfs:label>
+          </bf:DescriptionConventions>
+        </bf:descriptionConventions>
+        <bf:identifiedBy>
+          <bf:Local>
+            <rdf:value>10706240</rdf:value>
+            <bf:assigner>
+              <bf:Agent rdf:about="http://id.loc.gov/vocabulary/organizations/dlc"/>
+            </bf:assigner>
+          </bf:Local>
+        </bf:identifiedBy>
+        <bf:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1978-11-28</bf:creationDate>
+      </bf:AdminMetadata>
+    </bf:adminMetadata>
+    <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Text"/>
+    <bf:language>
+      <bf:Language rdf:about="http://id.loc.gov/vocabulary/languages/eng"/>
+    </bf:language>
+    <bf:genreForm>
+      <bf:GenreForm rdf:about="http://id.loc.gov/vocabulary/marcgt/gov">
+        <rdfs:label>state, provincial, territorial, dependant government publication</rdfs:label>
+      </bf:GenreForm>
+    </bf:genreForm>
+    <bf:genreForm>
+      <bf:GenreForm rdf:about="http://id.loc.gov/authorities/genreForms/gf2014026339">
+        <rdfs:label>fiction</rdfs:label>
+      </bf:GenreForm>
+    </bf:genreForm>
+    <bf:identifiedBy>
+      <bf:Lccn>
+        <rdf:value>78020279 //r875</rdf:value>
+      </bf:Lccn>
+    </bf:identifiedBy>
+    <bf:note>
+      <bf:Note>
+        <rdfs:label>Includes translation</rdfs:label>
+      </bf:Note>
+    </bf:note>
+    <bf:language>
+      <bf:Language>
+        <rdf:value rdf:resource="http://id.loc.gov/vocabulary/languages/eng"/>
+      </bf:Language>
+    </bf:language>
+    <bf:language>
+      <bf:Language>
+        <rdf:value rdf:resource="http://id.loc.gov/vocabulary/languages/chi"/>
+      </bf:Language>
+    </bf:language>
+    <bf:classification>
+      <bf:ClassificationLcc>
+        <bf:classificationPortion>PL2727.S2</bf:classificationPortion>
+        <bf:itemPortion>S713 1979</bf:itemPortion>
+      </bf:ClassificationLcc>
+    </bf:classification>
+    <bf:classification>
+      <bf:ClassificationDdc>
+        <bf:classificationPortion>895.1/34</bf:classificationPortion>
+        <bf:edition rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://id.loc.gov/vocabulary/classSchemes/ddc19</bf:edition>
+        <bf:edition>full</bf:edition>
+      </bf:ClassificationDdc>
+    </bf:classification>
+    <bf:contribution>
+      <bf:Contribution>
+        <rdf:type rdf:resource="http://id.loc.gov/ontologies/bflc/PrimaryContribution"/>
+        <bf:agent>
+          <bf:Agent rdf:about="http://id.loc.gov/authorities/names/n79054025">
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+            <bflc:name00MatchKey>曹雪芹, (清)</bflc:name00MatchKey>
+            <bflc:primaryContributorName00MatchKey>曹雪芹, (清)</bflc:primaryContributorName00MatchKey>
+            <bflc:name00MarcKey>1001 $a曹雪芹,$d(清)</bflc:name00MarcKey>
+            <rdfs:label>曹雪芹, (清)</rdfs:label>
+          </bf:Agent>
+        </bf:agent>
+        <bf:role>
+          <bf:Role rdf:about="http://id.loc.gov/vocabulary/relators/ctb"/>
+        </bf:role>
+      </bf:Contribution>
+    </bf:contribution>
+    <rdfs:label>紅樓夢 英文</rdfs:label>
+    <bf:title>
+      <bf:Title>
+        <bflc:title40MatchKey>紅樓夢 英文</bflc:title40MatchKey>
+        <bflc:title40MarcKey>24010$a紅樓夢$l英文</bflc:title40MarcKey>
+        <rdfs:label>紅樓夢 英文</rdfs:label>
+        <bflc:titleSortKey>紅樓夢 英文</bflc:titleSortKey>
+        <bf:mainTitle>紅樓夢</bf:mainTitle>
+      </bf:Title>
+    </bf:title>
+    <bf:language>
+      <bf:Language>
+        <rdfs:label>英文</rdfs:label>
+      </bf:Language>
+    </bf:language>
+    <bf:translationOf>
+      <bf:Work rdf:about="http://www.lib.ntnu.edu.tw/bibframe/resources/works/001">
+        <rdfs:label>紅樓夢</rdfs:label>
+        <bf:title>
+          <bf:Title>
+            <bflc:title40MatchKey>紅樓夢</bflc:title40MatchKey>
+            <bflc:title40MarcKey>24010$a紅樓夢$l英文</bflc:title40MarcKey>
+            <rdfs:label>紅樓夢</rdfs:label>
+            <bflc:titleSortKey>紅樓夢</bflc:titleSortKey>
+            <bf:mainTitle>紅樓夢</bf:mainTitle>
+          </bf:Title>
+        </bf:title>
+      </bf:Work>
+    </bf:translationOf>
+    <bf:hasSeries>
+      <bf:Work rdf:about="http://example.org/10706240#Work440-15">
+        <rdfs:label>Chinese literature in translation.</rdfs:label>
+        <bf:title>
+          <bf:Title>
+            <bflc:title40MarcKey>440 0$aChinese literature in translation.</bflc:title40MarcKey>
+            <bf:mainTitle>Chinese literature in translation</bf:mainTitle>
+          </bf:Title>
+        </bf:title>
+      </bf:Work>
+    </bf:hasSeries>
+    <bf:tableOfContents>
+      <bf:TableOfContents>
+        <rdfs:label>v. 1. The golden days.--v. 2. The Crab-Flower Club.--v. 3. The warning voice.--v. 4. The debt of tears.--v. 5. The dreamer wakes.</rdfs:label>
+      </bf:TableOfContents>
+    </bf:tableOfContents>
+    <bf:contribution>
+      <bf:Contribution>
+        <bf:agent>
+          <bf:Agent rdf:about="http://id.loc.gov/authorities/names/n78083424">
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+            <bflc:name00MatchKey>Hawkes, David.</bflc:name00MatchKey>
+            <bflc:name00MarcKey>70010$aHawkes, David.</bflc:name00MarcKey>
+            <rdfs:label>Hawkes, David.</rdfs:label>
+          </bf:Agent>
+        </bf:agent>
+        <bf:role>
+          <bf:Role rdf:about="http://id.loc.gov/vocabulary/relators/ctb"/>
+        </bf:role>
+      </bf:Contribution>
+    </bf:contribution>
+    <bf:contribution>
+      <bf:Contribution>
+        <bf:agent>
+          <bf:Agent rdf:about="http://id.loc.gov/authorities/names/n82144446">
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+            <bflc:name00MatchKey>Kao, O, ca. 1738-ca. 1815.</bflc:name00MatchKey>
+            <bflc:name00MarcKey>70010$aKao, O,$dca. 1738-ca. 1815.</bflc:name00MarcKey>
+            <rdfs:label>Kao, O, ca. 1738-ca. 1815.</rdfs:label>
+          </bf:Agent>
+        </bf:agent>
+        <bf:role>
+          <bf:Role rdf:about="http://id.loc.gov/vocabulary/relators/ctb"/>
+        </bf:role>
+      </bf:Contribution>
+    </bf:contribution>
+    <bf:contribution>
+      <bf:Contribution>
+        <bf:agent>
+          <bf:Agent rdf:about="http://id.loc.gov/authorities/names/n85219572">
+            <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Person"/>
+            <bflc:name00MatchKey>Minford, John.</bflc:name00MatchKey>
+            <bflc:name00MarcKey>70010$aMinford, John.</bflc:name00MarcKey>
+            <rdfs:label>Minford, John.</rdfs:label>
+          </bf:Agent>
+        </bf:agent>
+        <bf:role>
+          <bf:Role rdf:about="http://id.loc.gov/vocabulary/relators/ctb"/>
+        </bf:role>
+      </bf:Contribution>
+    </bf:contribution>
+    <bf:relatedTo>
+      <bf:Work rdf:about="http://www.lib.ntnu.edu.tw/bibframe/resources/hubs/001">
+        <rdfs:label>Shih tòu chi.</rdfs:label>
+        <bf:title>
+          <bf:Title>
+            <rdfs:label>Shih tòu chi.</rdfs:label>
+            <bflc:titleSortKey>Shih tòu chi.</bflc:titleSortKey>
+            <bf:mainTitle>Shih tòu chi</bf:mainTitle>
+          </bf:Title>
+        </bf:title>
+      </bf:Work>
+    </bf:relatedTo>
+    <bf:hasInstance rdf:resource="http://www.lib.ntnu.edu.tw/bibframe/resources/instances/005"/>
+  </bf:Work>
+  <bf:Instance rdf:about="http://www.lib.ntnu.edu.tw/bibframe/resources/instances/005">
+    <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Print"/>
+    <bf:issuance>
+      <bf:Issuance rdf:about="http://id.loc.gov/vocabulary/issuance/mono"/>
+    </bf:issuance>
+    <bf:provisionActivity>
+      <bf:ProvisionActivity>
+        <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Publication"/>
+        <bf:date rdf:datatype="http://id.loc.gov/datatypes/edtf">1979/1987</bf:date>
+        <bf:place>
+          <bf:Place rdf:about="http://id.loc.gov/vocabulary/countries/inu"/>
+        </bf:place>
+      </bf:ProvisionActivity>
+    </bf:provisionActivity>
+    <bf:identifiedBy>
+      <bf:Lccn>
+        <rdf:value>78020279 //r875</rdf:value>
+      </bf:Lccn>
+    </bf:identifiedBy>
+    <bf:identifiedBy>
+      <bf:Isbn>
+        <rdf:value>0253192668</rdf:value>
+        <bf:qualifier>set</bf:qualifier>
+      </bf:Isbn>
+    </bf:identifiedBy>
+    <bf:identifiedBy>
+      <bf:Isbn>
+        <rdf:value>025329266X</rdf:value>
+        <bf:status>
+          <bf:Status rdf:about="http://id.loc.gov/vocabulary/mstatus/cancinv">
+            <rdfs:label>invalid</rdfs:label>
+          </bf:Status>
+        </bf:status>
+      </bf:Isbn>
+    </bf:identifiedBy>
+    <bf:identifiedBy>
+      <bf:Local>
+        <rdf:value>.b10706240</rdf:value>
+      </bf:Local>
+    </bf:identifiedBy>
+    <rdfs:label>The story of the stone :</rdfs:label>
+    <bf:title>
+      <bf:Title>
+        <rdfs:label>The story of the stone :</rdfs:label>
+        <bflc:titleSortKey>story of the stone :</bflc:titleSortKey>
+        <bf:mainTitle>The story of the stone</bf:mainTitle>
+        <bf:subtitle>a Chinese novel in five volumes</bf:subtitle>
+      </bf:Title>
+    </bf:title>
+    <bf:responsibilityStatement>by Cao Xueqin ; edited by Gao E. ; translated by David Hawkes</bf:responsibilityStatement>
+    <bf:provisionActivity>
+      <bf:ProvisionActivity>
+        <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Publication"/>
+        <bf:place>
+          <bf:Place>
+            <rdfs:label>Bloomington</rdfs:label>
+          </bf:Place>
+        </bf:place>
+        <bf:agent>
+          <bf:Agent>
+            <rdfs:label>Indiana University Press</rdfs:label>
+          </bf:Agent>
+        </bf:agent>
+        <bf:date>1979]-1987</bf:date>
+      </bf:ProvisionActivity>
+    </bf:provisionActivity>
+    <bf:provisionActivityStatement>Bloomington : Indiana University Press, [1979]-1987.</bf:provisionActivityStatement>
+    <bf:extent>
+      <bf:Extent>
+        <rdfs:label>5 v.</rdfs:label>
+      </bf:Extent>
+    </bf:extent>
+    <bf:dimensions>24 cm.</bf:dimensions>
+    <bf:seriesStatement>Chinese literature in translation.</bf:seriesStatement>
+    <bf:instanceOf rdf:resource="http://www.lib.ntnu.edu.tw/bibframe/resources/works/005"/>
+    <bf:hasItem>
+      <bf:Item rdf:about="http://www.lib.ntnu.edu.tw/bibframe/resources/item/005">
+        <bf:shelfMark>
+          <bf:ShelfMarkLcc>
+            <rdfs:label>PL2727.S2 S713 1979</rdfs:label>
+          </bf:ShelfMarkLcc>
+        </bf:shelfMark>
+        <bf:itemOf rdf:resource="http://www.lib.ntnu.edu.tw/bibframe/resources/instances/005"/>
+      </bf:Item>
+    </bf:hasItem>
+  </bf:Instance>
+</rdf:RDF>
